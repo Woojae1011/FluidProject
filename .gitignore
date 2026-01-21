@@ -1,0 +1,23 @@
+# --- Python Specific ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Simulation Outputs (The "Bulk") ---
+# Ignore folders containing videos or plots
+recordings/
+plots/
+data_output/
+
+# Ignore specific large file types
+*.mp4
+*.avi
+*.csv
+*.dat
+*.hdf5
+*.npy
+
+# --- Profiling and Logs ---
+*.prof
+*.log
+.pstats
